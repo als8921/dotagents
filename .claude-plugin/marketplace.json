@@ -1,0 +1,66 @@
+{
+  "name": "dotagents",
+  "owner": {
+    "name": "als8921"
+  },
+  "metadata": {
+    "description": "여러 코딩 에이전트(Claude Code / Codex / opencode)가 공유하는 개인 스킬 모음",
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "dotagents",
+      "description": "Claude Code, Codex, opencode가 함께 쓰는 개인 스킬 모음",
+      "source": "./",
+      "strict": false
+    },
+    {
+      "name": "superpowers",
+      "description": "Superpowers: TDD·디버깅·협업 스킬 라이브러리",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/obra/superpowers.git"
+      }
+    },
+    {
+      "name": "claude-hud",
+      "description": "상태줄 HUD",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/jarrodwatts/claude-hud.git"
+      }
+    },
+    {
+      "name": "document-skills",
+      "description": "xlsx·docx·pptx·pdf 문서 처리 스킬",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/anthropics/skills.git"
+      },
+      "skills": [
+        "./skills/xlsx",
+        "./skills/docx",
+        "./skills/pptx",
+        "./skills/pdf"
+      ]
+    },
+    {
+      "name": "ralph-loop",
+      "description": "Ralph Loop",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/anthropics/claude-plugins-official.git",
+        "path": "plugins/ralph-loop"
+      }
+    },
+    {
+      "name": "clangd-lsp",
+      "description": "C/C++ clangd LSP",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/anthropics/claude-plugins-official.git",
+        "path": "plugins/clangd-lsp"
+      }
+    }
+  ]
+}

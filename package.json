@@ -1,0 +1,9 @@
+{
+  "name": "dotagents",
+  "version": "0.1.0",
+  "description": "Claude Code, Codex, opencode가 함께 쓰는 개인 스킬 모음",
+  "type": "module",
+  "main": ".opencode/plugins/dotagents.js",
+  "keywords": ["skills", "opencode", "claude-code", "codex"],
+  "license": "MIT"
+}

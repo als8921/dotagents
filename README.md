@@ -14,17 +14,14 @@ Claude Code · Codex · opencode 가 공유하는 개인 스킬·플러그인 �
 |---|---|---|
 | `superpowers` | 스킬 14 — 브레인스토밍, TDD, 체계적 디버깅, 플랜 작성·실행, 코드리뷰, worktree, 병렬 에이전트 | [obra/superpowers](https://github.com/obra/superpowers) |
 | `diagram-design` | 스킬 6 — 39종 다이어그램 생성(HTML/SVG), drawio·mermaid 임포트, 내보내기 | [cathrynlavery/diagram-design](https://github.com/cathrynlavery/diagram-design) |
-| `document-skills` | 스킬 4 — xlsx, docx, pptx, pdf | [anthropics/skills](https://github.com/anthropics/skills) ⚠️ |
 | `claude-hud` | 커맨드 2 — 상태줄 HUD 설정 | [jarrodwatts/claude-hud](https://github.com/jarrodwatts/claude-hud) |
-
-⚠️ = 정의가 상위 마켓플레이스에만 있어 이 레포가 베껴 온 것. 상위 구성이 바뀌면 따라가지 못한다.
 
 카탈로그 참조는 **Claude Code 에서만** 동작한다. Codex 와 opencode 에는 참조 개념이 없어
 자작 스킬만 퍼지고, 남의 플러그인은 각자 설치한다.
 
 **담지 않는 것**
 
-- 정의가 상위 마켓플레이스에만 있는 플러그인 (`clangd-lsp` 등) — 주소만 참조하면 껍데기가 깔린다
+- 정의가 상위 마켓플레이스에만 있는 플러그인 (`clangd-lsp`, `document-skills`) — 각자 원래 마켓플레이스에서 설치한다
 - 서드파티 스킬 (archify, hallmark, find-skills 등) — `~/.agents/skills/` 에 두고 `npx skills` 로 갱신받는다.
   Codex·opencode 는 이 경로를 네이티브로 읽고, Claude Code 만 심링크가 필요하다
 

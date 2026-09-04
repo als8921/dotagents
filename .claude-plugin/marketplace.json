@@ -37,6 +37,14 @@
         "source": "url",
         "url": "https://github.com/cathrynlavery/diagram-design.git"
       }
+    },
+    {
+      "name": "ponytail",
+      "description": "게으른 시니어 모드 — YAGNI, 표준 라이브러리 우선, 요청하지 않은 추상화 금지",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/DietrichGebert/ponytail.git"
+      }
     }
   ]
 }

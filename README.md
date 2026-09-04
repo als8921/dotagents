@@ -19,6 +19,7 @@
 |---|---|---|
 | `superpowers` | 스킬 14 — 브레인스토밍, TDD, 체계적 디버깅, 플랜 작성·실행, 코드리뷰, worktree, 병렬 에이전트 | [obra/superpowers](https://github.com/obra/superpowers) |
 | `diagram-design` | 스킬 6 — 39종 다이어그램 생성(HTML/SVG), drawio·mermaid 임포트, 내보내기 | [cathrynlavery/diagram-design](https://github.com/cathrynlavery/diagram-design) |
+| `ponytail` | 훅 3 — 세션·서브에이전트·프롬프트마다 "가장 단순한 해법" 지침을 주입 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) |
 | `claude-hud` | 커맨드 2 — 상태줄 HUD 설정 | [jarrodwatts/claude-hud](https://github.com/jarrodwatts/claude-hud) |
 
 **담지 않는 것** — 정의가 상위 마켓플레이스에만 있는 플러그인 (`clangd-lsp`,

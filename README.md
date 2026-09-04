@@ -106,25 +106,6 @@ codex plugin marketplace upgrade dotagents  # 마켓플레이스 스냅샷 갱�
                                             # opencode 는 재시작 시 자동 재해석
 ```
 
-## 개발 중일 때
-
-마켓플레이스 설치는 스킬을 각 에이전트의 캐시로 **복사**한다. 그래서 스킬을 고치면
-`git commit` → `git push` → 각 에이전트에서 update 를 해야 반영된다.
-
-주력 머신에서 스킬을 자주 손본다면 로컬 경로로 붙여두는 편이 낫다:
-
-```bash
-claude plugin marketplace add ~/Develop/dotagents   # 그래도 commit 은 필요
-codex plugin marketplace add ~/Develop/dotagents    # 그래도 commit 은 필요
-```
-
-opencode 만은 `file:` 스펙으로 붙이면 **작업 디렉터리를 직접 읽어서** commit 없이
-저장 즉시 반영된다:
-
-```json
-{ "plugin": ["dotagents@file:/Users/imincheol/Develop/dotagents"] }
-```
-
 ---
 
 ## 구조

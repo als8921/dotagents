@@ -19,11 +19,8 @@
 |---|---|---|
 | `superpowers` | 스킬 14 — 브레인스토밍, TDD, 체계적 디버깅, 플랜 작성·실행, 코드리뷰, worktree, 병렬 에이전트 | [obra/superpowers](https://github.com/obra/superpowers) |
 | `diagram-design` | 스킬 6 — 39종 다이어그램 생성(HTML/SVG), drawio·mermaid 임포트, 내보내기 | [cathrynlavery/diagram-design](https://github.com/cathrynlavery/diagram-design) |
-| `ponytail` | 훅 3 — 세션·서브에이전트·프롬프트마다 "가장 단순한 해법" 지침을 주입 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) |
+| `ponytail` | 스킬 6 + 훅 3 — YAGNI 지침 주입, 과잉 설계 점검 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) |
 | `claude-hud` | 커맨드 2 — 상태줄 HUD 설정 | [jarrodwatts/claude-hud](https://github.com/jarrodwatts/claude-hud) |
-
-**담지 않는 것** — 정의가 상위 마켓플레이스에만 있는 플러그인 (`clangd-lsp`,
-`document-skills`). 주소만 참조하면 껍데기가 깔리므로 각자 원래 마켓플레이스에서 설치한다.
 
 ## 설치
 
@@ -55,8 +52,7 @@ skills/<이름>/SKILL.md              자작 스킬 본문
 → `marketplace.json` 의 `dotagents` 엔트리 `skills` 배열에 경로 추가 → 위 표에 한 줄 추가
 → `claude plugin validate .` → push
 
-**카탈로그 추가** — 넣기 전에 자립형인지 확인한다. `200` 이면 주소만 적으면 되고,
-`404` 면 정의가 상위 마켓플레이스에 있으니 넣지 않는다.
+**카탈로그 추가** — 넣기 전에 자립형인지 확인한다. `200` 이어야 주소만 적어도 동작한다.
 
 ```bash
 curl -s -o /dev/null -w "%{http_code}\n" \

@@ -61,6 +61,14 @@
         "url": "https://github.com/anthropics/claude-plugins-official.git",
         "path": "plugins/clangd-lsp"
       }
+    },
+    {
+      "name": "diagram-design",
+      "description": "39종 편집 다이어그램을 자체 완결 HTML/SVG 로 생성 (cathrynlavery, MIT)",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/cathrynlavery/diagram-design.git"
+      }
     }
   ]
 }

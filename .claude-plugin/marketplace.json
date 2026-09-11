@@ -12,6 +12,9 @@
       "name": "dotagents",
       "description": "Claude Code, Codex, opencode가 함께 쓰는 개인 스킬 모음",
       "source": "./",
+      "skills": [
+        "./skills/find-skills"
+      ],
       "strict": false
     },
     {

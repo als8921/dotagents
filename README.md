@@ -23,7 +23,8 @@
 
 | 플러그인 | 제공하는 것 | 출처 |
 |---|---|---|
-| `superpowers` | 스킬 14 — 브레인스토밍, TDD, 체계적 디버깅, 플랜 작성·실행, 코드리뷰, worktree, 병렬 에이전트 | [obra/superpowers](https://github.com/obra/superpowers) |
+| `mattpocock-skills` | 스킬 25 — 캐묻기, 스펙·티켓 흐름, TDD, 디버깅, 코드리뷰, 도메인 모델링. 대부분 불러야 뜬다 | [mattpocock/skills](https://github.com/mattpocock/skills) |
+| `i-have-adhd` | 스킬 1 + 훅 1 — 답을 앞에 놓는 출력 규칙. 훅은 옵트인 | [ayghri/i-have-adhd](https://github.com/ayghri/i-have-adhd) |
 | `diagram-design` | 스킬 6 — 39종 다이어그램 생성(HTML/SVG), drawio·mermaid 임포트, 내보내기 | [cathrynlavery/diagram-design](https://github.com/cathrynlavery/diagram-design) |
 | `ponytail` | 스킬 6 + 훅 3 — YAGNI 지침 주입, 과잉 설계 점검 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) |
 | `claude-hud` | 커맨드 2 — 상태줄 HUD 설정 | [jarrodwatts/claude-hud](https://github.com/jarrodwatts/claude-hud) |
@@ -33,7 +34,7 @@
 ```bash
 claude plugin marketplace add als8921/dotagents
 claude plugin install dotagents@dotagents        # 자작 스킬
-claude plugin install superpowers@dotagents      # 필요한 것만 골라서
+claude plugin install mattpocock-skills@dotagents  # 필요한 것만 골라서
 claude plugin install diagram-design@dotagents
 ```
 

@@ -18,11 +18,19 @@
       "strict": false
     },
     {
-      "name": "superpowers",
-      "description": "Superpowers: TDD·디버깅·협업 스킬 라이브러리",
+      "name": "mattpocock-skills",
+      "description": "Matt Pocock 엔지니어링 스킬 — 캐묻기, 스펙·티켓 흐름, TDD, 코드리뷰, 도메인 모델링",
       "source": {
         "source": "url",
-        "url": "https://github.com/obra/superpowers.git"
+        "url": "https://github.com/mattpocock/skills.git"
+      }
+    },
+    {
+      "name": "i-have-adhd",
+      "description": "답을 묻지 않는 출력 — 다음 행동부터, 단계는 번호로, 곁가지는 생략",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/ayghri/i-have-adhd.git"
       }
     },
     {
